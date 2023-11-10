@@ -1,0 +1,286 @@
+repo_name: marcelothebuilder/ol-ext-bower
+report_id: 3f6637cee95c8cf7e9a397de1b2e4246
+repo_type: Public
+timestamp: '2023-11-10T20:28:41+00:00'
+requested_by: Viglino
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Alexandre Frizac
+  last_updated_on: 2018-12-13 15:35:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: darkscript
+  last_updated_on: 2018-07-10 07:20:37.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Mickaël BORNE
+  last_updated_on: 2016-10-28 12:24:59.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-clean
+  description: A gulp plugin for removing files and folders
+  package_url: https://www.npmjs.com/gulp-clean
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16218/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-cli
+  description: Command line interface for gulp
+  package_url: https://www.npmjs.com/gulp-cli
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16957/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-concat
+  description: Concatenates files
+  package_url: https://www.npmjs.com/gulp-concat
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-cssmin
+  description: Minify css using gulp
+  package_url: https://www.npmjs.com/gulp-cssmin
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16629/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-jsdoc3
+  description: Gulp integration for jsdoc3 cli
+  package_url: https://www.npmjs.com/gulp-jsdoc3
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17185/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-minify
+  description: Js minify plugin for gulp
+  package_url: https://www.npmjs.com/gulp-minify
+  version: 3.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17403/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: gulp-watch
+  description: Watch, that actually is an endless stream
+  package_url: https://www.npmjs.com/gulp-watch
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16175/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2023-05-02 13:30:21.000000000 Z
+- name: live-server
+  description: Simple development http server with live reload capability
+  package_url: https://www.npmjs.com/live-server
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16905/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: viglino
+  last_updated_on: 2022-09-26 12:38:58.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Viglino
+  last_updated_on: 2018-08-17 09:07:14.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 0.2.4
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2020-7598
+    cve_url: https://github.com/advisories/GHSA-vh95-rmgr-6w4m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.2.1
+  - name: 'Withdrawn: ESLint dependencies are vulnerable (ReDoS and Prototype Pollution)'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7fhm-mqm4-2wp7
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.2
+- name: plugin-error
+  description: Error handling for Vinyl plugins
+  package_url: https://www.npmjs.com/plugin-error
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17071/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Viglino
+  last_updated_on: 2018-01-27 08:56:42.000000000 Z
+- name: through2
+  description: A tiny wrapper around Node.js streams.Transform
+  package_url: https://www.npmjs.com/through2
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15948/default_fdb56d0865cbc86d9157d5e33f9313d760ed0e83.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean-Marc Viglino
+  last_updated_on: 2019-07-15 11:50:26.000000000 Z
