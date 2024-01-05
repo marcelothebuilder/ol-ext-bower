@@ -1,7 +1,8 @@
 repo_name: marcelothebuilder/ol-ext-bower
 report_id: 3f6637cee95c8cf7e9a397de1b2e4246
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T20:28:41+00:00'
+timestamp: '2024-01-05T08:52:31+00:00'
 requested_by: Viglino
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -35,7 +38,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/.eslintrc
+  detection_source: ".eslintrc"
   last_updated_by: Alexandre Frizac
   last_updated_on: 2018-12-13 15:35:01.000000000 Z
 - name: Git
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower
   detection_source: Repo Metadata
 - name: Yarn
   description: A new package manager for JavaScript
@@ -55,6 +60,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/yarn.lock
   detection_source: yarn.lock
   last_updated_by: darkscript
   last_updated_on: 2018-07-10 07:20:37.000000000 Z
@@ -68,7 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -80,6 +86,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package.json
   detection_source: package.json
   last_updated_by: Mickaël BORNE
   last_updated_on: 2016-10-28 12:24:59.000000000 Z
@@ -93,7 +100,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -107,7 +114,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16218/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -121,7 +128,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16957/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -135,7 +142,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15973/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -149,7 +156,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16629/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -163,7 +170,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -177,7 +184,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17185/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -191,7 +198,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17403/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -205,7 +212,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16175/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2023-05-02 13:30:21.000000000 Z
@@ -219,7 +226,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16905/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: viglino
   last_updated_on: 2022-09-26 12:38:58.000000000 Z
@@ -233,7 +240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Viglino
   last_updated_on: 2018-08-17 09:07:14.000000000 Z
@@ -266,7 +273,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17071/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Viglino
   last_updated_on: 2018-01-27 08:56:42.000000000 Z
@@ -280,7 +287,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15948/default_fdb56d0865cbc86d9157d5e33f9313d760ed0e83.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/marcelothebuilder/ol-ext-bower/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Jean-Marc Viglino
   last_updated_on: 2019-07-15 11:50:26.000000000 Z
